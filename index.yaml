@@ -3,7 +3,7 @@ entries:
   makya-helm:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-11-12T14:57:57.24089+01:00"
+    created: "2021-11-12T14:54:28.115335+01:00"
     description: A Helm chart to deploy a gpu sharing plugin on an EKS
     digest: 9633d496ab93cb197981243d624bfc3e91bf1dfa6f24b79084f902bba89ec212
     name: makya-helm
@@ -11,4 +11,4 @@ entries:
     urls:
     - https://mariusehr1.github.io/helm-eks-gpu-sharing/makya-helm-1.0.0.tgz
     version: 1.0.0
-generated: "2021-11-12T14:57:57.240113+01:00"
+generated: "2021-11-12T14:54:28.11455+01:00"
