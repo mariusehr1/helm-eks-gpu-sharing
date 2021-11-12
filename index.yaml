@@ -9,6 +9,6 @@ entries:
     name: makya-helm
     type: application
     urls:
-    - https://mariusehr1.github.io/helm-eks-gpu-sharing/makya-helm-1.0.0.tgz
+    - https://github.com/mariusehr1/helm-eks-gpu-sharing/makya-helm-1.0.0.tgz
     version: 1.0.0
 generated: "2021-11-12T14:44:34.894595+01:00"
