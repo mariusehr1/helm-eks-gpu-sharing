@@ -45,6 +45,7 @@ spec:
           allowPrivilegeEscalation: false
           capabilities:
             drop: ["ALL"]
+        args: ["/usr/bin/vgpu-device-plugin", "--vgpu={{ .Values.vgpuCount }}"]
         volumeMounts:
         - name: device-plugin
           mountPath: /var/lib/kubelet/device-plugins
