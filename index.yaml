@@ -1,26 +1,37 @@
 apiVersion: v1
 entries:
   eks-gpu-sharing:
-    - apiVersion: v2
-      appVersion: 1.0.0
-      created: "2021-11-12T15:03:27.099278+01:00"
-      description: A Helm chart to deploy a gpu sharing plugin on an EKS
-      digest: 1ff066fa7b32cd6839fc56cd92671bf53f6a7077b1f841c5f74732253c5296bb
-      name: eks-gpu-sharing
-      type: application
-      urls:
-        - https://mariusehr1.github.io/helm-eks-gpu-sharing/eks-gpu-sharing-1.0.0.tgz
-      version: 1.0.0
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-15T17:05:22.186393+02:00"
+    description: A Helm chart to deploy a gpu sharing plugin on an EKS
+    digest: 469149e7e7f9d2b828c11d178324d2819056b44acc520e0af0bd369fbf4d0558
+    name: eks-gpu-sharing
+    type: application
+    urls:
+    - https://mariusehr1.github.io/helm-eks-gpu-sharing/eks-gpu-sharing-1.0.0.tgz
+    version: 1.0.0
   nvidia-device-plugin:
-    - apiVersion: v2
-      appVersion: 0.11.0
-      created: "2021-12-12T15:03:27.099278+01:00"
-      description: A Helm chart to deploy a gpu sharing plugin on an EKS
-      digest: 1ff066fa7b32cd6839fc56cd92671bf53f6a7077b1f841c5f74732253c5296bb
-      name: nvidia-device-plugin
-      type: application
-      urls:
-        - https://mariusehr1.github.io/helm-eks-gpu-sharing/nvidia-device-plugin-0.11.0.tgz
-      version: 1.0.0
-
-generated: "2021-11-12T15:03:27.097808+01:00"
+  - apiVersion: v2
+    appVersion: 0.11.0
+    created: "2021-12-12T15:03:27.099278+01:00"
+    description: A Helm chart to deploy a gpu sharing plugin on an EKS
+    digest: 1ff066fa7b32cd6839fc56cd92671bf53f6a7077b1f841c5f74732253c5296bb
+    name: nvidia-device-plugin
+    type: application
+    urls:
+    - https://mariusehr1.github.io/helm-eks-gpu-sharing/nvidia-device-plugin-0.11.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
+    appVersion: 0.11.0
+    created: "2022-06-15T17:05:22.18729+02:00"
+    description: A Helm chart for the nvidia-device-plugin on Kubernetes
+    digest: 46a62456c9b0318e9348a04882d410e005b97a4882073e4ecbaa45fc2f5825c5
+    home: https://github.com/NVIDIA/k8s-device-plugin
+    kubeVersion: '>= 1.10.0-0'
+    name: nvidia-device-plugin
+    type: application
+    urls:
+    - https://mariusehr1.github.io/helm-eks-gpu-sharing/nvidia-device-plugin-0.11.0.tgz
+    version: 0.11.0
+generated: "2022-06-15T17:05:22.173136+02:00"
